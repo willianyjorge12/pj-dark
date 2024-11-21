@@ -5,9 +5,9 @@ btnDarkMode.addEventListener("click",darkmode)
 
 function darkmode(){
     body.classList.toggle("dark-mode")
-    if (condition) {
-        
+    if (btnDarkMode.textContent == "ativar") {
+        btnDarkMode.textContent = "desativar"
     } else {
-        
+        btnDarkMode.textContent = "ativar"
     }
 }
